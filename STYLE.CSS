@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: orbitron;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abb {
+  color: rgb(223, 237, 21);
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.bb {
+  color: #fff;
+  text-decoration: none;
+}
+.bbb {
+  color: #fff;
+  text-decoration: none;
+}
+.bbbb {
+  color: #fff;
+  text-decoration: none;
+}
+.bbbbb {
+  color: #fff;
+  text-decoration: none;
+}
+.bbbbbb {
+  color: #fff;
+  text-decoration: none;
+}
+.bb:hover {
+  cursor: pointer;
+  color: rgba(255, 85, 0, 0.756);
+  font-weight: bold;
+}
+
+.bbb:hover {
+  cursor: pointer;
+  color: rgba(255, 85, 0, 0.756);
+  font-weight: bold;
+}
+
+.bbbb:hover {
+  cursor: pointer;
+  color: rgba(255, 85, 0, 0.756);
+  font-weight: bold;
+}
+
+.bbbbb:hover {
+  cursor: pointer;
+  color: rgba(255, 85, 0, 0.756);
+  font-weight: bold;
+}
+
+.bbbbbb:hover {
+  cursor: pointer;
+  color: rgba(255, 85, 0, 0.756);
+  font-weight: bold;
+}
+
+.image {
+  background-image: url(image.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 69%;
+}
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0.5%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.abc::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url("icon.png") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+.logo {
+  font-size: 50px;
+  /*font-weight: bold;*/
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -10px;
+}
+/*.abc:hover {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url("iconhover.jpg") no-repeat;
+  background-size: contain;
+  float: left;
+  margin-right: 10px;
+  margin-top: -20px;
+}*/
+.logo:hover {
+  color: rgba(255, 85, 0, 0.756);
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
